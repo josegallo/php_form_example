@@ -1,4 +1,5 @@
 <?php 
+//form with validation and sanitization of name, email and message
 $error = '';
 $sent = '';
 if (isset($_POST['submit'])) {
