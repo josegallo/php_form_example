@@ -14,7 +14,7 @@
 		<input type ="email" class = "form-control" placeholder = "email" 
 			name = "email" value = "<?php if (!$sent && isset($email)) echo $email;?>" id = "email">	
 	 	<textarea name = "message" class = "form-control" placeholder = "Type your message" 
-	 		id = "message" ><?php if (!$sent && isset($message)) echo $message;?> </textarea>
+	 		id = "message"><?php if (!$sent && isset($message)) echo $message;?></textarea>
 	 		<?php if (!empty($error)) : ?>
 	 		<div class = "alert error"> <?php echo $error;?> </div>
 	 		<?php elseif(!empty($sent)) : ?>
