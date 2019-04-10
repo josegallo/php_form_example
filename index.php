@@ -1,5 +1,4 @@
 <?php 
-//print_r($_POST);
 $error = '';
 $sent = '';
 if (isset($_POST['submit'])) {
